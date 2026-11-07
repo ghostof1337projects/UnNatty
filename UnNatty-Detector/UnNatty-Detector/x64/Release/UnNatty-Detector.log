@@ -1,0 +1,69 @@
+﻿  hookdetector.cpp
+E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(22,9): warning C4005: 'UNICODE': macro redefinition
+  (compiling source file 'hookdetector.cpp')
+      E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(22,9):
+      'UNICODE' previously declared on the command line
+  
+E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(23,9): warning C4005: '_UNICODE': macro redefinition
+  (compiling source file 'hookdetector.cpp')
+      E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(23,9):
+      '_UNICODE' previously declared on the command line
+  
+E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(29,9): warning C4005: 'STRINGIZE': macro redefinition
+  (compiling source file 'hookdetector.cpp')
+      E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(29,9):
+      'STRINGIZE' previously declared on the command line
+  
+E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(30,9): warning C4005: 'STRIP_STRINGS': macro redefinition
+  (compiling source file 'hookdetector.cpp')
+      E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(30,9):
+      'STRIP_STRINGS' previously declared on the command line
+  
+E:\private srcs\UnNatty-Detector\UnNatty-Detector\common.h(32,9): warning C4005: 'PROCESS_VM_READ': macro redefinition
+  (compiling source file 'hookdetector.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winnt.h(12688,9):
+      see previous definition of 'PROCESS_VM_READ'
+  
+C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'hookdetector.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      the template instantiation context (the oldest one first) is
+          E:\private srcs\UnNatty-Detector\UnNatty-Detector\hookdetector.cpp(437,68):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              E:\private srcs\UnNatty-Detector\UnNatty-Detector\hookdetector.cpp(437,68):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'HookDetector::checkForOpusHooks::<lambda_1>::operator ()'
+          C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+common.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+hookdetector.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+main.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+processchecker.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+common.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+hookdetector.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+main.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+processchecker.obj : warning LNK4254: section '.data' (C0000040) merged into '.text' (60000020) with different attributes
+  UnNatty-Detector.vcxproj -> E:\private srcs\UnNatty-Detector\x64\Release\UnNatty-Detector-V2.1.exe
